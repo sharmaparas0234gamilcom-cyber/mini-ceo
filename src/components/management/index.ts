@@ -1,0 +1,7 @@
+export { ManagementTabs } from './ManagementTabs'
+export { ProductList } from './products/ProductList'
+export { ProductForm } from './products/ProductForm'
+export { CampaignList } from './marketing/CampaignList'
+export { CampaignForm } from './marketing/CampaignForm'
+export { EmployeeList } from './employees/EmployeeList'
+export { DepartmentManager } from './employees/DepartmentManager'
