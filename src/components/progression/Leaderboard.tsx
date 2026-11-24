@@ -173,7 +173,7 @@ export function Leaderboard() {
                     </td>
                   </motion.tr>
                 )}
-          </tbody>
+          </tbody>,
           </table>
         </div>
 
