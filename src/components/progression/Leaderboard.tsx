@@ -168,13 +168,13 @@ export function Leaderboard() {
                       <Badge variant="champagne" className="text-caption">Lvl {entry.level}</Badge>
                     </td>
                     <td className="p-4 text-right">
-                      <Badge variant="default" className="bg-graphite-800 text-slate-300 border-graphite-700 text-captain capitalize">
+                      <Badge variant="default" className="bg-graphite-800 text-slate-300 border-graphite-700 text-capitalize">
                         {entry.industry.replace('-', ' ')}
                       </Badge>
                     </td>
                   </motion.tr>
                 )}
-          </tbody>
+            </tbody>
           </table>
         </div>
 
@@ -259,7 +259,3 @@ function StatCard({ label, value, format = 'currency', icon, color = 'default' }
     </Card>
   )
 }
-
-// Need to import React and Info
-import React from 'react'
-import { Info } from 'lucide-react'
