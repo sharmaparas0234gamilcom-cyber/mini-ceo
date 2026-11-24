@@ -1,5 +1,6 @@
+import React from 'react'
 import { motion } from 'motion/react'
-import { Trophy, TrendingUp, Star, Target, User, Building2, Award, ChevronRight } from 'lucide-react'
+import { Trophy, TrendingUp, Star, Target, User, Building2, Award, ChevronRight, Info } from 'lucide-react'
 import { cn } from '@utils/helpers'
 import { Card } from '@components/ui'
 import { Avatar } from '@components/ui/Avatar'
@@ -173,7 +174,7 @@ export function Leaderboard() {
                     </td>
                   </motion.tr>
                 )}
-          </tbody>,
+          </tbody>
           </table>
         </div>
 
