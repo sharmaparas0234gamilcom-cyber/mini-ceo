@@ -199,9 +199,9 @@ export function Notifications() {
                   </button>
                 )}
               </motion.div>
-            )
-          })
-      </div>) 
+            })
+          )}
+      </div>
     </Card>
   )
 }
