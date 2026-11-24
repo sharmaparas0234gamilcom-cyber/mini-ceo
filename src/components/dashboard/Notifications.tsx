@@ -201,7 +201,7 @@ export function Notifications() {
               </motion.div>
             )
           })
-      </div>
+      </div>) 
     </Card>
   )
 }
